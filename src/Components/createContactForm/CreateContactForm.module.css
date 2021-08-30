@@ -1,0 +1,41 @@
+.formWrapper {
+  font-size: 16px;
+  display: flex;
+  width: 260px;
+  border: 1px solid black;
+  margin-bottom: 20px;
+}
+
+.form{
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+}
+
+.label{
+  font-size: 14px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.input {
+  border: 1px solid #6666;
+}
+
+.button {
+  font-size: 8px;
+  font-weight: 700;
+  padding: 2px;
+  text-transform: capitalize;
+  cursor: pointer;
+  border-radius: 5px;
+  border: 1px solid #555;
+  background-color: inherit;
+  width: 80px;
+}
+
+.button:hover {
+  color: white;
+  background-color: rgb(0, 133, 178);
+}

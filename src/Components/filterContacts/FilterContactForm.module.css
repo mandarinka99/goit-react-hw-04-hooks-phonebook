@@ -1,0 +1,21 @@
+
+.form{
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+}
+
+.label{
+
+  font-size: 14px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.input {
+  margin-top: 5px;
+  width: 150px;
+  border: 1px solid #6666;
+}
+
